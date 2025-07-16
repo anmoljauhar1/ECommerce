@@ -1,0 +1,95 @@
+.home-hero {
+  background-color: #f3f4f6;
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  font-size: 1.125rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
+
+.hero-btn {
+  background-color: black;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-btn:hover {
+  background-color: #1f2937;
+}
+
+.featured-section {
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}
+
+.product-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.product-card {
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.05);
+}
+
+.product-img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.product-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.why-us {
+  background-color: #f3f4f6;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.why-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.why-card h4 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
